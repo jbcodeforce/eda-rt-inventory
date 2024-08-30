@@ -1,0 +1,59 @@
+{
+    "namespace": "ibm.eda.demo.stores.infra.events",
+    "type": "record",
+    "name": "Item",
+    "fields": [
+        {
+            "name": "id",
+            "type": {
+                "type": "int",
+                "default": -1
+            },
+            "doc": "Unique ID from source system"
+        },
+        {
+            "name": "sku",
+            "type": {
+                "type": "string",
+                "avro.java.string": "String"
+            },
+            "doc": "Unique ID for the product as defined in product catalog"
+        },
+        {
+            "name": "storeName",
+            "type": {
+                "type": "string",
+                "avro.java.string": "String"
+            },
+            "doc": "Unique ID for the store where item is stocked"
+        },
+        {
+            "name": "quantity",
+            "type": "int",
+            "default": -1,
+            "doc": "Quantity sold or restocked."
+        },
+        {
+            "name": "type",
+            "type": {
+                "type": "string",
+                "avro.java.string": "String"
+            },
+            "doc": "type of transaction"
+        },
+        {
+            "name": "timestamp",
+            "type": {
+                "type": "string",
+                "avro.java.string": "String"
+            }
+        },
+        {
+            "name": "price",
+            "type": {
+                "type": "int",
+                "default": -1
+            }
+        }
+    ]
+}

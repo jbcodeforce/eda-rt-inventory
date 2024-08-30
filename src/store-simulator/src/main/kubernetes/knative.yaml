@@ -1,0 +1,20 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: storesimulator
+spec:
+ template:
+    metadata:
+      name: storesimulator-v1
+    spec:
+      containers:
+      - image: ibmcase/eda-store-simulator:v0.1.0
+        livenessProbe:
+          httpGet:
+            path: /health/live
+        readinessProbe:
+          httpGet:
+            path: /health/ready
+        env:
+          - name: KAFKA_BOOTSTRAP_SERVERS
+            value: kcluster-kafka-bootstrap.jbsandbox.svc:9092
