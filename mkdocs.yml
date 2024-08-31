@@ -8,7 +8,7 @@ copyright: Copyright &copy; 2018 - 2024 Jerome Boyer
 theme: 
   name: material
   logo: images/logo.drawio.png
-  favicon: images/logo.drawio.png
+  favicon: images/logo-blue.drawio.png
   palette:
     scheme: default
     # primary: blue
