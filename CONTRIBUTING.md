@@ -1,12 +1,12 @@
-# Contributing to the OwlAgent Framework
+# Contributing to this repository
 
-Anyone can contribute to OwlAgent Framework and associated projects.
+Anyone can contribute to this repository and associated projects.
 
 There are multiple ways to contribute: report bugs and suggest improvements, improve the documentation, and contribute code.
 
 ## Bug reports, documentation changes, and feature requests
 
-If you would like to contribute to the project in the form of encountered bug reports, necessary documentation changes, or new feature requests, this can be done through the use of the repository's [**Issues**](https://github.com/AthenaDecisionSystems/athena-owl-core/issues) list.
+If you would like to contribute to the project in the form of encountered bug reports, necessary documentation changes, or new feature requests, this can be done through the use of the repository's [**Issues**](https://github.com/jbcodeforce/eda-rt-inventory/issues) list.
 
 Before opening a new issue, please check the existing list to make sure a similar or duplicate item does not already exist.  When you create your issues, please be as explicit as possible and be sure to include the following:
 
